@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Search", "ECo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Products.Tests", "ECommerce.Api.Products.Tests\ECommerce.Api.Products.Tests.csproj", "{8C034ED4-C853-4316-BB11-F79B35DA5656}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E9E9A2B1-7246-4340-B036-21F09FDB6280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A7C83D71-3E2B-41C9-BC92-410B07567F68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A2486E9-7396-45AE-A689-15DCF5F2AB3F} = {A7C83D71-3E2B-41C9-BC92-410B07567F68}
+		{4E23089B-FD32-4F80-83C2-37ABD6018CDB} = {A7C83D71-3E2B-41C9-BC92-410B07567F68}
+		{6E07C8D9-40BD-4CA0-86AC-FC343CC0AB8D} = {A7C83D71-3E2B-41C9-BC92-410B07567F68}
+		{AC4CF2FE-B43E-4FE2-8338-DE6B8578627C} = {A7C83D71-3E2B-41C9-BC92-410B07567F68}
+		{8C034ED4-C853-4316-BB11-F79B35DA5656} = {E9E9A2B1-7246-4340-B036-21F09FDB6280}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA14E6A1-B191-4CBA-B40B-9398FDF9F6CE}
