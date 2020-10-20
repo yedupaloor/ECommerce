@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Orders", "ECo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Search", "ECommerce.Api.Search\ECommerce.Api.Search.csproj", "{AC4CF2FE-B43E-4FE2-8338-DE6B8578627C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Products.Tests", "ECommerce.Api.Products.Tests\ECommerce.Api.Products.Tests.csproj", "{8C034ED4-C853-4316-BB11-F79B35DA5656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products.Tests", "ECommerce.Api.Products.Tests\ECommerce.Api.Products.Tests.csproj", "{8C034ED4-C853-4316-BB11-F79B35DA5656}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E9E9A2B1-7246-4340-B036-21F09FDB6280}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A7C83D71-3E2B-41C9-BC92-410B07567F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Customer.Tests", "ECommerce.Api.Customer.Tests\ECommerce.Api.Customer.Tests.csproj", "{A8EA9F23-8DA5-4707-9A99-CC1C936F02C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Customer.Tests", "ECommerce.Api.Customer.Tests\ECommerce.Api.Customer.Tests.csproj", "{A8EA9F23-8DA5-4707-9A99-CC1C936F02C1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C2F8089-242F-4F00-A631-257F259F9FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{A8EA9F23-8DA5-4707-9A99-CC1C936F02C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8EA9F23-8DA5-4707-9A99-CC1C936F02C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8EA9F23-8DA5-4707-9A99-CC1C936F02C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2F8089-242F-4F00-A631-257F259F9FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2F8089-242F-4F00-A631-257F259F9FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2F8089-242F-4F00-A631-257F259F9FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2F8089-242F-4F00-A631-257F259F9FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
