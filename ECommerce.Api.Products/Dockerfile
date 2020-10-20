@@ -8,7 +8,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1803 AS build
 WORKDIR /src
 COPY ["ECommerce.Api.Products/ECommerce.Api.Products.csproj", "ECommerce.Api.Products/"]
 RUN dotnet restore "ECommerce.Api.Products/ECommerce.Api.Products.csproj"
